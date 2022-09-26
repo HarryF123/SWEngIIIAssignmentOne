@@ -1,6 +1,8 @@
 package model;
 
 import java.util.ArrayList;
+
+import org.checkerframework.checker.units.qual.C;
 import org.joda.time.*;
 
 public class Student {
@@ -12,8 +14,8 @@ public class Student {
     private final DateTime dob;
     private final long id;
     private final String username;
-    private ArrayList<String> courses;
-    private ArrayList<String> modules;
+    private ArrayList<Course> courses;
+    private ArrayList<Module> modules;
 
     public Student(String fname, String lname, int age, String stringDob, long id){
         courses = new ArrayList<>();
@@ -37,4 +39,12 @@ public class Student {
     public String getLastName(){return lname;}
 
     public DateTime getDOB(){return dob;}
+
+    public void addCourse(Course c){courses.add(c);}
+
+    public ArrayList<Course> getCourses(){return courses;}
+
+    public void addModule(Module m){modules.add(m);}
+
+    public ArrayList<Module> getModules(){return modules;}
 }

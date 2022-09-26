@@ -10,7 +10,7 @@ public class Course {
     private final DateTime startDate;
     private final DateTime endDate;
     private ArrayList<Module> modules;
-    private ArrayList<Module> students;
+    private ArrayList<Student> students;
 
     public Course(String courseName, String startDate, String endDate){
         modules = new ArrayList<>();
@@ -31,4 +31,12 @@ public class Course {
     }
 
     public void addModule(Module m){modules.add(m);}
+
+    public ArrayList<Module> getModules(){return modules;}
+
+    public void addStudent(Student s){students.add(s);}
+
+    public ArrayList<Student> getStudents(){return students;}
 }
+
+

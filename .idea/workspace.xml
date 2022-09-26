@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4028fe-0a16-4741-8b13-37eeae0d4804" name="Changes" comment="Assignment Step 1: New Model Classes - Student, Lecturer, Module, Course, with corresponding test classes - 23-09-2022&#10;Clean Up - regarding to 'name' variable for Student and Lecturer : now fname and lname for quality of use in system">
+    <list default="true" id="fd4028fe-0a16-4741-8b13-37eeae0d4804" name="Changes" comment="addStudent() and addModule()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Lecturer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Module.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/ModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/ModuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664194717091</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="addStudent() and addModule()">
+      <created>1664196699777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664196699777</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +256,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Assignment Step 1: New Model Classes - Student, Lecturer, Module, Course, with corresponding test classes - 23-09-2022" />
     <MESSAGE value="Assignment Step 1: New Model Classes - Student, Lecturer, Module, Course, with corresponding test classes - 23-09-2022&#10;Clean Up - regarding to 'name' variable for Student and Lecturer : now fname and lname for quality of use in system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment Step 1: New Model Classes - Student, Lecturer, Module, Course, with corresponding test classes - 23-09-2022&#10;Clean Up - regarding to 'name' variable for Student and Lecturer : now fname and lname for quality of use in system" />
+    <MESSAGE value="addStudent() and addModule()" />
+    <option name="LAST_COMMIT_MESSAGE" value="addStudent() and addModule()" />
   </component>
 </project>

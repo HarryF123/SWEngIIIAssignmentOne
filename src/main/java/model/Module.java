@@ -25,4 +25,10 @@ public class Module {
     public Lecturer getLecturer(){return lecturer;}
 
     public void addStudent(Student s){students.add(s);}
+
+    public ArrayList<Student> getStudents(){return students;}
+
+    public void addCourse(Course c){courses.add(c);}
+
+    public ArrayList<Course> getCourses(){return courses;}
 }
