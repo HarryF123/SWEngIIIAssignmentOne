@@ -5,7 +5,9 @@ import org.joda.time.*;
 
 public class Student {
 
-    private final String name;
+    private final String fname;
+
+    private final String lname;
     private final int age;
     private final DateTime dob;
     private final long id;
@@ -13,23 +15,26 @@ public class Student {
     private ArrayList<String> courses;
     private ArrayList<String> modules;
 
-    public Student(String name, int age, String stringDob, long id){
+    public Student(String fname, String lname, int age, String stringDob, long id){
         courses = new ArrayList<>();
         modules = new ArrayList<>();
-        this.name = name;
+        this.fname = fname;
+        this.lname = lname;
         this.age = age;
         this.dob = DateTime.parse(stringDob);
         this.id = id;
-        this.username = getUsername(name, age);
+        this.username = getUsername();
     }
 
-    public String getUsername(String name, int age) {return name+age;}
+    public String getUsername() {return getFirstName()+getLastName()+getAge();}
 
     public long getId(){return id;}
 
     public int getAge(){return age;}
 
-    public String getName(){return name;}
+    public String getFirstName(){return fname;}
+
+    public String getLastName(){return lname;}
 
     public DateTime getDOB(){return dob;}
 }

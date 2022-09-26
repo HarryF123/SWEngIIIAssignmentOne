@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fd4028fe-0a16-4741-8b13-37eeae0d4804" name="Changes" comment="Assignment Step 1: New Model Classes - Student, Lecturer, Module, Course, with corresponding test classes - 23-09-2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Lecturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/LecturerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/LecturerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664191622165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Assignment Step 1: New Model Classes - Student, Lecturer, Module, Course, with corresponding test classes - 23-09-2022">
+      <created>1664193692922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664193692922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class StudentTest {
-    Student s = new Student("Harry",21,"2001-01-03",1);
+    Student s = new Student("Harry", "Freney",21,"2001-01-03",1);
 
     @Test
     public void returns_correct_Id(){
@@ -20,12 +20,12 @@ class StudentTest {
 
     @Test
     public void returns_correct_name(){
-        assert("Harry".equals(s.getName()));
+        assert("Harry".equals(s.getFirstName()));
     }
 
     @Test
     public void returns_correct_userName(){
-        assert("Harry21".equals(s.getUsername(s.getName(),s.getAge())));
+        assert("HarryFreney21".equals(s.getUsername()));
     }
 
     @Test
