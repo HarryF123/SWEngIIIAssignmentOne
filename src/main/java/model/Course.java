@@ -29,4 +29,6 @@ public class Course {
     public DateTime getEndDate() {
         return endDate;
     }
+
+    public void addModule(Module m){modules.add(m);}
 }

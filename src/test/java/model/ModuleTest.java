@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ModuleTest {
-    Module m = new Module("CT",100, new Lecturer("Harry",21,"2001-01-03",1));
-    Lecturer l = new Lecturer("Harry",21,"2001-01-03",1);
+    Module m = new Module("CT",100, new Lecturer("Harry", "Freney",21,"2001-01-03",1));
+    Lecturer l = new Lecturer("Harry", "Freney",21,"2001-01-03",1);
 
     @Test
     public void returns_correct_Id(){
@@ -20,6 +20,6 @@ class ModuleTest {
 
     @Test
     public void returns_correct_lecturer(){
-        assert((l.getName() == m.getLecturer().getName()) && (l.getId() == m.getLecturer().getId()));
+        assert((l.getFirstName()+l.getLastName() == m.getLecturer().getFirstName()+m.getLecturer().getLastName()) && (l.getId() == m.getLecturer().getId()));
     }
 }

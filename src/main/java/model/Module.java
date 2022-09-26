@@ -23,4 +23,6 @@ public class Module {
     public long getModuleId(){return moduleId;}
 
     public Lecturer getLecturer(){return lecturer;}
+
+    public void addStudent(Student s){students.add(s);}
 }
