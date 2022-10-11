@@ -25,7 +25,7 @@ class LecturerTest {
 
     @Test
     public void returns_correct_userName(){
-        assert("Harry21".equals(l.getUsername()));
+        assert("HarryFreney21".equals(l.getUsername()));
     }
 
     @Test
